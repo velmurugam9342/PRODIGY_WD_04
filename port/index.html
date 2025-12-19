@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Velmurugan A | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <h2 class="logo">Velmurugan A<span>.</span></h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-text">
+        <span class="hello">Hello!</span>
+        <h1>
+            I'm <span class="highlight">Velmurugan A</span><br>
+            <span class="role">Aspiring Web Developer</span>
+        </h1>
+        <p class="tagline">
+            Creative Coder | Lifelong Learner |
+            All India Kalam Dream Foundation – Karur President |
+            Intern at Prodigy InfoTech
+        </p>
+    </div>
+    <div class="hero-image">
+        <img src="mee.jpg" alt="Velmurugan A">
+    </div>
+</section>
+
+<section class="section" id="about">
+    <h2>About Me</h2>
+    <p>
+    I am a Creative Coder and an Aspiring Web Developer with a strong passion for building
+    innovative, user friendly, and impactful digital solutions. I enjoy transforming ideas
+    into functional web applications by combining creativity with technology. I have
+    hands-on experience with HTML, CSS, Java, and Python, and I continuously work on
+    improving my skills by exploring modern web technologies.
+</p>
+
+<p>
+    As a lifelong learner, I stay curious about emerging trends in technology and strive
+    to grow both technically and professionally. Beyond development, I currently serve as
+    the Karur President of the All India Kalam Dream Foundation, where I lead youth
+    empowerment initiatives and contribute to meaningful social impact. I am driven,
+    committed, and motivated to solve real-world problems through technology while making
+    a positive difference in society.
+</p>
+
+</section>
+
+<section class="section" id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Python</span>
+        <span>Java</span>
+    </div>
+</section>
+
+<section class="section" id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card" onclick="openProject('nutriboost')">
+        <h3>NUTRIBOOST</h3>
+        <p>Smart Health & Nutrition Recommendation System</p>
+    </div>
+
+    <div class="project-card" onclick="openProject('hateword')">
+        <h3>Hate Word Deletion System</h3>
+        <p>Automated Content Filtering Using NLP</p>
+    </div>
+</section>
+
+<section class="section" id="experience">
+    <h2>Experience</h2>
+
+    <div class="timeline-card">
+        <h3>Web Developer Intern</h3>
+        <span class="org">CodSoft</span>
+        <span class="time">1st Year – 2nd Semester</span>
+        <p>
+            Worked on responsive web development using HTML and CSS. Built structured
+            layouts, improved UI design understanding, and gained real-world coding
+            experience through hands-on projects.
+        </p>
+    </div>
+
+    <div class="timeline-card">
+        <h3>Web Development Intern</h3>
+        <span class="org">Prodigy InfoTech</span>
+        <span class="time">– 2nd Year, 3rd Semester</span>
+        <p>
+            Currently working on professional web development tasks focusing on clean
+            code, responsive design, and interactive user interfaces while strengthening
+            problem solving skills.
+        </p>
+    </div>
+</section>
+
+<section class="section" id="education">
+    <h2>Education</h2>
+
+    <div class="timeline-card">
+        <h3>B.E. Computer Science and Engineering</h3>
+        <span class="org">SNS College of Engineering</span>
+        <span class="time">2024 – 2028</span>
+    </div>
+
+
+    <div class="timeline-card">
+        <h3>Higher Secondary (12th Grade)</h3>
+        <span class="org">Government Model Higher Secondary School</span>
+        <span class="time">2023 – 2024 | 77.8%</span>
+    </div>
+
+    
+    <div class="timeline-card">
+        <h3>Secondary School (10th Grade)</h3>
+        <span class="org">Government Model Higher Secondary School</span>
+        <span class="time">2021 – 2022 | 80.2%</span>
+    </div>
+</section>
+
+<section class="section contact" id="contact">
+    <h2>Contact</h2>
+    <p><strong>Phone:</strong> +919342185746</p>
+    <p><strong>Email:</strong> velmurugana2502@gmail.com</p>
+    <p>
+        <strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/velmurugan-a-/" target="_blank">
+            linkedin.com/in/velmurugan-a-
+        </a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2025 Velmurugan A | All Rights Reserved</p>
+</footer>
+
+<div id="projectModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeProject()">&times;</span>
+        <h2 id="modalTitle"></h2>
+        <img id="modalImage">
+        <p id="modalDesc"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
